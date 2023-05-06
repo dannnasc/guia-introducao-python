@@ -3,3 +3,8 @@
 
 # div(7,2)
 # Esperado: 3
+def div(m,n):
+    if m<n:
+        return 0
+    return div(m-n,n) + 1
+print("",div(7,2))

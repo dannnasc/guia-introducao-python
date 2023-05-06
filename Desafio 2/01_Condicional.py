@@ -5,5 +5,10 @@
 
 valor_vendas = int(input("Entre  a number: "))
 comissao = 0
-
+if valor_vendas>5000000:
+    comissao=valor_vendas*0.12
+if valor_vendas >= 3000000 and valor_vendas <= 5000000:
+    comissao=valor_vendas*0.095
+else:
+    comissao=valor_vendas*0.07
 print(comissao)
