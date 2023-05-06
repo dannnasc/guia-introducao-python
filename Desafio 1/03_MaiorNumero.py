@@ -1,3 +1,5 @@
 # Escreva uma função para encontrar o maior entre 3 numeros
 
-#def Max(a,b,c):
+def Max(a,b,c):
+    
+    return 0
