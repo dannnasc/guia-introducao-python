@@ -6,7 +6,7 @@ a, b, c = map(int, input().split())
 
 print("",a+b+c)
 print("",a*b*c)
-print("",a/b/c)
+print("",(a/b)/c)
 
 # Escreva um programa que leia um número e apresente a raiz quadrada deste número.
 

@@ -3,7 +3,10 @@
 def Max(a,b,c):
     if a>b and a>c:
         maior=a
+        return maior
     if b>a and b>c: 
-        maior =b
-    maior=c
-    return maior
+        maior=b
+        return maior
+    return c
+print(Max(1,3,3))    
+    
