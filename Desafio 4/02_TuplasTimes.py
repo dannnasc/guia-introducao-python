@@ -8,4 +8,9 @@
 times = ('Palmeiras', 'Santos', 'Flamengo', 'Atlético', 'Internacional',
          'Atlético-PR', 'Botafogo', 'Goias', 'Corinthians', 'Grêmio',
          'Bahia', 'São Paulo', 'Ceará SC', 'Fortaleza', 'Vasco da Gama',
-         'Cruzeiro', 'Fluminense', 'Chapecoence', 'CSA', 'Avaí')
+         'Cruzeiro', 'Fluminense', 'Chapecoense', 'CSA', 'Avaí')
+
+print("\n",times[0:5])
+print("\n",times[16:20])
+print("\n", sorted(times))
+print("\n", times.index('Chapecoense'))
