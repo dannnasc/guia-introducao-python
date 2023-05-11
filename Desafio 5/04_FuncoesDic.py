@@ -25,13 +25,19 @@ waypoints = [
 ]
 
 # Adicione um novo local a lista
-# YOUR CODE HERE
+waypoints.append({
+        "lat": 61,
+        "lon": -61,
+        "name": "a forth place"
+    })
 
 # Modifique o dicionario com nome "a place" para uma longitude
 # de valor -130 e mude seu nome para "not a real place"
-
-
-# YOUR CODE HERE
+for dicti in waypoints:
+    if dicti["name"] == "a place":
+        dicti["lon"] = -130
+        dicti["name"] = "not a real place"
 
 # Crie um loop que escreva na tela todos os valores dos dicionarios da lista
-# YOUR CODE HERE
+for i in waypoints:
+    print(i)    
